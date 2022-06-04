@@ -1,34 +1,20 @@
-# Welcome to Remix!
+# Personal Blog
 
-- [Remix Docs](https://remix.run/docs)
+## 📦 Packages:
 
-## Deployment
+- ⚒️ [Remix](https://remix.run/) - Remix is a full stack web framework that lets you focus on the user interface and work back through web standards to deliver a fast, slick, and resilient user experience. People are gonna love using your stuff.
 
-After having run the `create-remix` command and selected "Vercel" as a deployment target, you only need to [import your Git repository](https://vercel.com/new) into Vercel, and it will be deployed.
+- ⚒️ [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework packed that can be composed to build any design, directly in your markup.
 
-If you'd like to avoid using a Git repository, you can also deploy the directory by running [Vercel CLI](https://vercel.com/cli):
+- ⚒️ [Supabase](https://supabase.com/) - Open Source Firebase alternative.
 
-```sh
-npm i -g vercel
-vercel
-```
+- ⚒️ [Prisma](https://www.prisma.io/) - Next-generation Node.js and TypeScript ORM.
 
-It is generally recommended to use a Git repository, because future commits will then automatically be deployed by Vercel, through its [Git Integration](https://vercel.com/docs/concepts/git).
+## 🚀 Deployed on Vercel:
 
-## Development
+- [blog.jpaddeo.work](https://blog.jpaddeo.work/).
 
-To run your Remix app locally, make sure your project's local dependencies are installed:
 
-```sh
-npm install
-```
+## 🔑 License:
 
-Afterwards, start the Remix development server like so:
-
-```sh
-npm run dev
-```
-
-Open up [http://localhost:3000](http://localhost:3000) and you should be ready to go!
-
-If you're used to using the `vercel dev` command provided by [Vercel CLI](https://vercel.com/cli) instead, you can also use that, but it's not needed.
+- [MIT License](https://github.com/jpaddeo/nextjs-reddit-clone/blob/main/LICENSE).
