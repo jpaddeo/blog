@@ -1,11 +1,12 @@
+import { json } from '@remix-run/node';
 import { Link, useLoaderData } from '@remix-run/react';
 
 import { getPosts } from '~/services/posts';
 
 export const loader = async () => {
-  return {
+  return json({
     posts: await getPosts(),
-  };
+  });
 };
 
 export default function Posts() {
@@ -14,6 +15,7 @@ export default function Posts() {
   return (
     <main>
       <h1>Posts</h1>
+      <Link to='admin'>Admin</Link>
       <ul>
         {posts.map((post) => (
           <li key={post.slug}>
