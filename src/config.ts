@@ -1,2 +1,2 @@
-export const SITE_TITLE = "JPA's Blog.";
-export const SITE_DESCRIPTION = 'Personal blog of jpaddeo';
+export const SITE_TITLE = "Blog de JPA";
+export const SITE_DESCRIPTION = 'Blog personal de jpaddeo';
