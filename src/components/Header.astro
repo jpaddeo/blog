@@ -3,18 +3,20 @@ import HeaderLink from '@components/HeaderLink.astro';
 import { SITE_TITLE } from '../config';
 ---
 
-<header class="mb-2">
-    <h2 class="my-2">
+<header
+    class='mb-2 mx-auto flex flex-col items-start justify-center sm:max-w-lg md:max-w-xl lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl px-4 border-b border-white py-2'
+>
+    <h2 class='my-2'>
         {SITE_TITLE}
     </h2>
     <nav>
-        <HeaderLink href="/">Home</HeaderLink>
-        <HeaderLink href="/about">About</HeaderLink>
-        <HeaderLink href="https://twitter.com/jpaddeo" target="_blank"
-            >Twitter</HeaderLink
-        >
-        <HeaderLink href="https://github.com/jpaddeo" target="_blank"
-            >GitHub</HeaderLink
-        >
+        <HeaderLink href='/'>Home</HeaderLink>
+        <HeaderLink href='/about'>About</HeaderLink>
+        <HeaderLink href='https://twitter.com/jpaddeo' target='_blank'>
+            Twitter
+        </HeaderLink>
+        <HeaderLink href='https://github.com/jpaddeo' target='_blank'>
+            GitHub
+        </HeaderLink>
     </nav>
 </header>
